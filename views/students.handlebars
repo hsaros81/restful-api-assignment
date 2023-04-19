@@ -1,0 +1,10 @@
+<h1>{{pagetitle}}</h1>
+<p>{{maintext}}</p>
+
+{{#each students}}
+    <h2>{{this.name}}</h2>
+    <p>Age: {{this.age}}</p>
+    <p>Email: {{this.email}}</p>
+    <p>Is attending course: {{this.attending}}</p>
+    <br>
+{{/each}}
